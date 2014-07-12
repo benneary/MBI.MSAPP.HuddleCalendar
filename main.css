@@ -1,0 +1,181 @@
+/* line 1, SASS/_layoutgrid.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 2, SASS/_layoutgrid.scss */
+.col-11 {
+  width: 91%;
+}
+
+/* line 3, SASS/_layoutgrid.scss */
+.col-10 {
+  width: 83%;
+}
+
+/* line 4, SASS/_layoutgrid.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 5, SASS/_layoutgrid.scss */
+.col-8 {
+  width: 66%;
+}
+
+/* line 6, SASS/_layoutgrid.scss */
+.col-7 {
+  width: 58.3%;
+}
+
+/* line 7, SASS/_layoutgrid.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 8, SASS/_layoutgrid.scss */
+.col-5 {
+  width: 42%;
+}
+
+/* line 9, SASS/_layoutgrid.scss */
+.col-4 {
+  width: 33%;
+}
+
+/* line 10, SASS/_layoutgrid.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 11, SASS/_layoutgrid.scss */
+.col-2 {
+  width: 16.6%;
+}
+
+/* line 12, SASS/_layoutgrid.scss */
+.col-1 {
+  width: 8.3%;
+}
+
+/* line 13, SASS/_layoutgrid.scss */
+.float {
+  float: left;
+}
+
+/* line 1, SASS/_body.scss */
+body {
+  font-family: "Roboto";
+}
+
+/* line 1, SASS/_header.scss */
+.header {
+  position: absolute;
+  z-index: 4;
+  background-color: #03a9f4;
+  color: white;
+  padding: 1%;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.4);
+  box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.4);
+}
+
+/* line 12, SASS/_header.scss */
+.EA-Title {
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: 300;
+}
+
+/* line 18, SASS/_header.scss */
+.Next-Meeting-body {
+  text-align: center;
+}
+
+/* line 22, SASS/_header.scss */
+.nm-h1 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/* line 27, SASS/_header.scss */
+.nm-bd {
+  font-size: 2.7em;
+  font-weight: 300;
+  line-height: 1em;
+}
+
+/* line 33, SASS/_header.scss */
+.clock {
+  text-align: right;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+/* line 1, SASS/_schedule.scss */
+.schedule-body {
+  background-color: #ff7043;
+  color: white;
+  padding: 1.5%;
+  position: absolute;
+  top: 6.7em;
+  z-index: 1;
+  height: 86.7%;
+}
+
+/* line 13, SASS/_schedule.scss */
+.meeting-time {
+  text-align: left;
+  font-size: 4.4em;
+  font-weight: 700;
+}
+
+/* line 18, SASS/_schedule.scss */
+.meeting-title {
+  text-align: left;
+  font-size: 1.8em;
+  margin-top: 2.5%;
+  font-weight: 100;
+}
+
+/* line 25, SASS/_schedule.scss */
+.schedule-line {
+  height: 0.25em;
+  background-color: #d6613c;
+  z-index: 1000;
+}
+
+/* line 1, SASS/_sidebar.scss */
+.sidebar {
+  background-color: #424242;
+  height: 86.7%;
+  position: absolute;
+  top: 6.7em;
+  left: 68.5em;
+  z-index: 3;
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.4);
+  box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.4);
+}
+
+/* line 16, SASS/_sidebar.scss */
+.busy {
+  background-color: #ff7043;
+}
+
+/* line 20, SASS/_sidebar.scss */
+.sb-row {
+  font-size: 1.4em;
+  line-height: 1.1em;
+}
+
+/* line 25, SASS/_sidebar.scss */
+.sb-time {
+  margin-left: 1.5em;
+  margin-top: 1.3em;
+  padding: 0.4em;
+}

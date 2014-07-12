@@ -1,0 +1,29 @@
+.schedule-body {
+	background-color: $orange;
+	color: white;
+	padding: 1.5%;
+	position: absolute;
+	top: 6.7em;
+	z-index: 1;
+	height: 86.7%;
+}
+
+
+
+.meeting-time {
+	text-align: left;
+	font-size: 4.4em;
+	font-weight: 700;
+}
+.meeting-title {
+	text-align: left;
+	font-size: 1.8em;
+	margin-top: 2.5%;
+	font-weight: 100;
+}
+
+.schedule-line {
+	height: 0.25em;
+	background-color: #d6613c;
+	z-index: 1000;
+}
