@@ -28,6 +28,6 @@ function getDateTime() {
 $(document).ready(function(){
     setInterval(function(){
         var now = new Date();
-        $('#clock').html(now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds());
+        $('#clock').html(now.getHours() + ":" + now.getMinutes());
     },1000)
 });
